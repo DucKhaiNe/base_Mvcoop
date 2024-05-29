@@ -1,0 +1,21 @@
+{
+    "name": "khaind/mvc_oop",
+    "autoload": {
+        "psr-4": {
+            "Khaind\\MvcOop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyễn Đức Khải",
+            "email": "117210464+DucKhaiNe@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.6",
+        "rakit/validation": "^1.4",
+        "doctrine/dbal": "^4.0",
+        "eftec/bladeone": "^4.13"
+    }
+}
