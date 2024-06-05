@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Khaind\\MvcOop\\": "src/"
-        }
+        },
+        "files": [
+            "helper.php"
+        ]
     },
     "authors": [
         {
