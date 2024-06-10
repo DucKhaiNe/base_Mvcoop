@@ -17,6 +17,21 @@
         </li>
 
         <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="icon_menu">
+                        <img src="{{ asset('assets/admin/img/menu-icon/dashboard.svg') }}" alt>
+                    </div>
+                    <span>Danh mục</span>
+                </a>
+                <ul>
+                    
+                    <li><a  href="{{ url('admin/categories') }}">Danh sách</a></li>
+                    <li><a href="{{ url('admin/categories/create') }}">Thêm Mới</a></li>
+                    
+                </ul>
+            </li>
+
+        <li class>
             <a class="has-arrow" href="#" aria-expanded="false">
                 <div class="icon_menu">
                     <img src="{{ asset('assets/admin/img/menu-icon/5.svg') }}" alt>
